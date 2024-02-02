@@ -21,6 +21,17 @@ int main(void) {
 }
 ```
 
+## C++
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout.exceptions(std::cout.badbit);
+    std::cout << "Hello, World!" << std::endl;
+    return EXIT_SUCCESS;
+}
+```
+
 ## Lua
 
 ```lua
