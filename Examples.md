@@ -22,7 +22,7 @@ int main(void) {
 ```
 
 ## C++
-```cpp
+```c
 #include <iostream>
 
 int main() {
